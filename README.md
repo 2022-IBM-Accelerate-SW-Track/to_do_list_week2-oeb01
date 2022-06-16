@@ -67,7 +67,7 @@ Hints (Useful Resources):
            `deleteTodo={make your change}` to correspond to the deleteTodo function. **Hint:** replace `make your change` with deleteTodo() function
       + Navigate to `src/component/todos.js`
         1. Add `deleteTodo` as a new property to the Todos component to correspond to the new deleteTodo() function
-        2. Within the Checkbox component, add an onClick event handler to call the deleteTodo() function and pass the todo item's `id` as a parameter. **Hint:** Use an Arrow Function. Click [**here**](https://reactjs.org/docs/faq-functions.html) to learn about passing functions to components.
+        ?? 2. Within the Checkbox component, add an onClick event handler to call the deleteTodo() function and pass the todo item's `id` as a parameter. **Hint:** Use an Arrow Function. Click [**here**](https://reactjs.org/docs/faq-functions.html) to learn about passing functions to components.
 4. In this final step, We will be adding a validation feature to avoid having duplicate tasks w/in the Todo list.
       + Navigate to `src/pages/Home.js`
         1. In the addTodo() function, implement a code to determine if a task already exists before performing the action to add an item to the Todo list. There are plenty of ways to implement this feature.\
